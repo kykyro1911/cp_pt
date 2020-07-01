@@ -1,0 +1,7 @@
+將 λ 改成熟悉的 $
+打開 C:\Program Files\cmder1.3.11\vendor\clink.lua
+找到 lambda = "λ" 將 λ 改成 $
+重啟Cmder
+打開 C:\Program Files\cmder1.3.11\vendor\profile.ps1
+找到 Microsoft.PowerShell.UtilityWrite-Host "nλ" 將 λ 改成 $
+重啟Cmder

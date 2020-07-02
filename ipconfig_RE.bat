@@ -1,6 +1,6 @@
 @echo off
 ipconfig /release
-sleep 5
+sleep 20
 ipconfig /renew
 
 echo finish

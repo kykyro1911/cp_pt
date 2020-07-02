@@ -16,3 +16,4 @@ def Screenshot():
 if __name__ == "__main__":
     Screenshot()
     print("success!")
+    os.system('pause')

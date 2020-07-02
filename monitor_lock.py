@@ -1,5 +1,8 @@
 import os, win32com.client 
+import pyautogui as pag
 
+
+'''
 def runScreensaver(): 
     strComputer = "." 
     objWMIService = win32com.client.Dispatch("WbemScripting.SWbemLocator") 
@@ -9,7 +12,11 @@ def runScreensaver():
         if objItem.ScreenSaverExecutable: 
             os.system(objItem.ScreenSaverExecutable + " /start")
             break
+'''
+def main():
+    x, y = pag.position()
+
+
 
 if __name__ == "__main__":
-    print("123")
-    runScreensaver()
+    main()

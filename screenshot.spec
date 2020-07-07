@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['D:\\Users\\nono.wang\\Desktop\\cp_test\\screenshot.py'],
+a = Analysis(['screenshot.py'],
              pathex=['D:\\Users\\nono.wang\\Desktop\\cp_test'],
              binaries=[],
              datas=[],
@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True )
+          console=False )
